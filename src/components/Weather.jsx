@@ -70,7 +70,6 @@ const Weather = () => {
     }
   });
 
-
   useEffect(() => {
     search("London");
   }, []);
